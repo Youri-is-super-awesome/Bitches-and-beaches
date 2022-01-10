@@ -1,0 +1,9 @@
+Project 6: Housing Prices
+
+From the Kaggle description: Ask a home buyer to describe their dream house, and they probably won’t begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition’s dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
+
+In this project you will estimate the value of houses in Ames, Iowa, using 79 explanatory variables. The dataset is fairly small, with only 1460 training samples. The 79 features in the dataset are a mix of categorical and numerical features, and leave a lot of room for feature engineering.
+
+Difficulty 3: This dataset is small, which makes it challenging to train a model that generalizes well. The relatively large amount of features ensure that there is still a lot of data to explore.
+
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques
