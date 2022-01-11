@@ -4,5 +4,21 @@ Van de 79, zijn 37 numerical en 43 categorisch.
 Dus als je de catehorische data in numerical gaat omzetten (zoals bij titanic week opdracht) raakt er heel veel data verloren.
 
 Opties: 
-- data splitsen in alle categorical en alle numerical feautures.
-- 
+- 1 versie met decision tree 
+- 1 versie met lineair reg
+
+housing price is je y value / target value
+elk andere feature
+
+1. splitsen data in cat en num
+2. grid scatterplot (num) en barplot (cat) om te kijken welke features een grote correlatie hebben om je features te selecteren
+3. multivariate met belangerijkste num en catg features, waarbij je de cat features eerst omzet in num features (dit noemen we een dummy features)
+catgorische data kunnen we op 2 manieren omzetten naar numerical:
+- indien het ordinaal is kunnen we direct omzetten naar numerical zonder problemen met 1, 2, 3 etc
+- indien het niet ordinaal is kunnen we werken met een one hot encoded matrix (zie hiervoor titanic)
+
+Verbetering:
+Ipv te werken met slechts 1 multivariate model kunnen we werken met 2 aparte modellen:
+- een wat gemaakt is voor categorisch 
+- en 1 voor numerical
+Dan gemiddelde te nemen van beide modellen en op basis daarvan model opstellen. 
