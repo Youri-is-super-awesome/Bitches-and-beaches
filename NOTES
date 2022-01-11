@@ -1,0 +1,8 @@
+11-1-2022:
+Er zijn dus veel meer features, 81 ongeveer, en je kan er 2 sws meteen uithalen (order en PID) want deze zijn uniqlue waardes voor elk huis. Dus blijven er nog 79 features over.
+Van de 79, zijn 37 numerical en 43 categorisch. 
+Dus als je de catehorische data in numerical gaat omzetten (zoals bij titanic week opdracht) raakt er heel veel data verloren.
+
+Opties: 
+- data splitsen in alle categorical en alle numerical feautures.
+- 
