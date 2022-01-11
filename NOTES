@@ -10,12 +10,13 @@ elk andere feature kan invloed hebben op y
 2. splitsen data in cat en num voor plotten (na plotten nemen we data weer samen)
 3. grid scatterplot (num) en barplot (cat) om te kijken welke features een grote correlatie hebben om je features te selecteren
 4. alleen features selecteren voor model die belangrijk zijn
-5. data splitsen in training, test en validation
-6. cat features eerst omzet in num features (dit noemen we een dummy features)
+5. data normaliseren op zelfde schaal
+6. data splitsen in training, test en validation
+7. cat features eerst omzet in num features (dit noemen we een dummy features)
 catgorische data kunnen we op 2 manieren omzetten naar numerical:
 - indien het ordinaal is kunnen we direct omzetten naar numerical zonder problemen met 1, 2, 3 etc
 - indien het niet ordinaal is kunnen we werken met een one hot encoded matrix (zie hiervoor titanic)
-7. multivariate runnen 
+8. multivariate runnen 
 
 Eventuele verbetering voor extra versie:
 Ipv te werken met slechts 1 multivariate model kunnen we werken met 2 aparte modellen:
