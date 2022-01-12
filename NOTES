@@ -23,3 +23,12 @@ Ipv te werken met slechts 1 multivariate model kunnen we werken met 2 aparte mod
 - een wat gemaakt is voor categorisch 
 - en 1 voor numerical
 Dan gemiddelde te nemen van beide modellen en op basis daarvan model opstellen. 
+
+12/01/2021:
+
+**wat nog te doen**
+- we hebben nu alleen moderate en strong correlations genomen, miss ook weak erbij
+- we moeten kijken wat de beste threshold is (we hebben nu 20% aangehouden)
+- we moeten kijken of nummerieke data daadwerkelijk nummeriek en niet eigenlijk categorisch
+- we moeten kijken of we nog iets met de p-waarde willen doen?
+- normal distribution bekijken
