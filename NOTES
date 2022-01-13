@@ -32,3 +32,8 @@ Dan gemiddelde te nemen van beide modellen en op basis daarvan model opstellen.
 - we moeten kijken of nummerieke data daadwerkelijk nummeriek en niet eigenlijk categorisch
 - we moeten kijken of we nog iets met de p-waarde willen doen?
 - normal distribution bekijken
+- alles normaliseren
+- Bij de plotten categorisch: 
+
+- meerdere manieren gradient descent: wij doen nu batch, kunnen ook mini batch en stocastic proberen:
+https://github.com/kaustubholpadkar/Predicting-House-Price-using-Multivariate-Linear-Regression/blob/master/Multivariate_Linear_Regression_Python.ipynb
