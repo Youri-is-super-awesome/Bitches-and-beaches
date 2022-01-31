@@ -4,7 +4,7 @@ The topic of our project is Housing prices and how to predict these prices for n
 Students: Youri Hemelaar, Jenny Eder, Sien Jansen, Agnes Admiraal
 
 # Short description of the project
-The application can predict housing prices according to new samples (houses) he gets. The models that are created are using the AmesHouses dataset to learn these models. There are 5 different sections/stages in the project, assigned with M~number~ at the end of the file. 
+The application can predict housing prices according to new samples (houses) he gets. The models that are created are using the AmesHouses dataset to learn these models. There are 5 different sections/stages in the project, assigned with M-number- at the end of the file. 
 The first stage (M1) is the also the first model that was build. It is a linear regression model, based on the cleaned data. 
 After the linear regression model, the polynomial model (M2) was made to improve the results of the first model. 
 In the third section, the cleaning data part was improved to get the most important features out of the dataset to get better predictions in the previous section. 
