@@ -18,4 +18,4 @@ In the fourth and final stage of the project, there are some whole new models cr
 #### The polynomial model:
   1. 
 
-For the neural network, the steps are:
+#### The Neural Network models:
