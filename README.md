@@ -5,11 +5,16 @@ The topic of the project is Housing prices and how to predict these prices for n
 # Short description of the project
 This application estimates the value of houses in Ames, Iowa, using 79 explanatory variables. The dataset is fairly small, with only 1460 training samples. The 79 features in the dataset are a mix of categorical and numerical features.
 
-There are 5 milestones of this project, assigned with M-number- at the end of the filenames. 
+There are 5 milestones of this project, assigned with M-number- at the end of the filenames.
+
 M1: The main focus of milestone 1 was the preprocessing of the data. The data was cleaned, rescaled and tranformed to the correct format for later use in the regression models. A simple first model for the lineair regression was build as well. This model was created with only two features of the cleaned data: General Living Area and Overall Quality. 
+
 M2: After the linear regression model, the polynomial model was made to improve the results of the first model. This version included 11 numeric features.
+
 M3: In the third milestone, the cleaning data part was improved to get the most important features out of the dataset to get better predictions in the polynomial model.
+
 M4: In the fourth stage of the project, there are some whole new models created: Neural Networks (NN). There is a simple NN with only one layer and there is a NN based on a tuner, who picks the best model that fits with your data. This model is rebuild in the 'complex NN'. 
+
 M5: In this final stage of the project, the feature selection is improved with a seperote code that checks the influence of each feature sperately on the performance of the last model. New features are created based on combinations of other features and added to the model as well. The neural network is modified to work on 3 different datasets: cleaned data (M1), feature filtered data (M3) and the best features data (M5). This allowed us to compare the different effects the earlier data processing steps have on the model.
 
 # How to run the project
