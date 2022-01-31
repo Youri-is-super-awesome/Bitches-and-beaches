@@ -11,11 +11,11 @@ In the third section, the cleaning data part was improved to get the most import
 In the fourth and final stage of the project, there are some whole new models created: Neural Networks (NN). There is a simple NN with only one layer and there is a NN based on a tuner, who picks the best model that fits with your data. This model is rebuild in the 'complex NN'. 
 
 # How to run the project
-## The regression model:
+#### The regression model:
   1. Run the preprocessing_M2 file, but set the boarder value of the variable 'relevent_num_features' on 0.7 to get two features          that has the best correlation.
   2. Now run the regression model itself to see what the results are of the model.
 
-## The polynomial model:
+#### The polynomial model:
   1. 
 
 For the neural network, the steps are:
