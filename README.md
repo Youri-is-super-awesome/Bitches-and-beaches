@@ -15,7 +15,7 @@ M3: In the third milestone, the cleaning data part was improved to get the most 
 
 M4: In the fourth stage of the project, there are some whole new models created: Neural Networks (NN). There is a simple NN with only one layer and there is a NN based on a tuner, who picks the best model that fits with your data. This model is rebuild in the 'complex NN'. 
 
-M5: In this final stage of the project, the feature selection is improved with a new program that checks the influence of each feature sperately on the performance of the last model. New features are created based on combinations of other features and added to the model as well. The neural network is modified to work on 3 different datasets: cleaned data (M1), feature filtered data (M3) and the best features data (M5). This allowed us to compare the different effects the earlier data processing steps have on the model.
+M5: In this final stage of the project, the feature selection is improved with a new program that checks the influence on the performance of the last model seperately for each feature. New features are created based on combinations of other features and added to the model as well. The neural network is modified to work on 3 different datasets: cleaned data (M1), feature filtered data (M3) and the best features data (M5). This allowed us to compare the different effects the earlier data processing steps have on the model.
 
 # How to run the project
 
