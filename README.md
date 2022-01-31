@@ -31,7 +31,7 @@ M5: In this final stage of the project, the feature selection is improved with a
   1. Run preprocessing_clean_M5 to generate a cleaned data file. Run ones with get_dummies set on True and False.
   2. Run preprocessing_featureselection_M5 to generate a feature filtered data file. Run ones with get_dummies set on True and False. The correlation treshold can be adjusted to own preference. (Lower means more features will be selected.)
   3. Run test_features_M5 to generate a best feature data file. You can adjust the number of best features to own preference. Our advise is to set it between 10 and 20. Set export on True if you want to save the filtered datafile with only the best features. 
-  4. Run the Neural Network with NN_tuner_M5. If it is the first run, set search_best_model on True to let Keras Tuner search for the best model. For the next time, you can set build the best found model in the function build_NN and set search_best_model on False: the program will then reuse this best model instead of searching for a new one. The neural network will run three seperate gradient descents for the clean data, feature filtered data and the best features data. 
+  4. Run the Neural Network with NN_tuner_M5. If it is the first run, set search_best_model on True to let Keras Tuner search for the best model. For the next time, you can rebuild the best found model in the function build_NN and set search_best_model on False: the program will then reuse this best model instead of searching for a new one. The neural network will run three seperate gradient descents for the clean data, feature filtered data and the best features data. 
 
 # Special credits
 Youri Hemelaar, Jenny Eder, Sien Jansen, Agnes Admiraal
